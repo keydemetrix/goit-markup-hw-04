@@ -167,7 +167,7 @@ nav .logo-style{
         padding: 188px 0;
         display: flex;
         background-color:#2e2f42;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) ,url("/images/people-office-bg.jpg");
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) ,url('../images/people-office-bg.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -394,7 +394,7 @@ nav .logo-style{
 
 /* Footer */
 .social-p{
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
@@ -451,6 +451,10 @@ nav .logo-style{
         /* 150% */
         letter-spacing: 0.32px;
         color: var(--white);
+}
+
+.socmed-link:hover, .socmed-link:focus{
+            background-color: var(--mint);
 }
 /* --------------- END OF FOOTER----------------*/
 /* Porfolio header buttons */
