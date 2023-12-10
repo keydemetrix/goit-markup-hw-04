@@ -103,7 +103,7 @@ nav .logo-style{
     list-style: none;
 
 }
-.link:hover, :focus, :active {
+.sub:hover, :focus{
     color: var(--nav-blue);
 }
 /* address */
@@ -392,6 +392,17 @@ nav .logo-style{
 }
 
 
+.icon-item-five{
+    fill: var(--gray);
+}
+
+.icon-item-five:hover, :focus{
+    fill: var(--nav-blue);
+}
+.customer-icon-link:focus, :hover{
+    border-color: var(--nav-blue);
+}
+
 /* Footer */
 .social-p{
     margin: 0 0 16px 0;
@@ -453,8 +464,11 @@ nav .logo-style{
         color: var(--white);
 }
 
-.socmed-link:hover, .socmed-link:focus{
-            background-color: var(--mint);
+.ft-socials a:hover, :focus{
+    background-color: var(--mint);
+}
+.socmed-link:hover,.socmed-link:focus{
+            background-color: var(--ocean, #404bbf);
 }
 /* --------------- END OF FOOTER----------------*/
 /* Porfolio header buttons */
