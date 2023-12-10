@@ -8,6 +8,7 @@
     --nav-blue: #404bbf;
     --main-bg-color: #ffffff;
     --CLOUD: #F4F4FD;
+    --mint:#31D0AA;
 }
 /* Global container */
 .container {
@@ -357,24 +358,61 @@ nav .logo-style{
 }
 
 /* --------------- 5th SEC ----------------*/
-.fifth-container{
-    
+.fith-sec{
+    background-color: var(--CLOUD);
 }
-
+.fifth-title{
+    margin-top: 120px;
+    margin-bottom: 72px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
 .fifth-list{
     display: inline-flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+.customer-item {
+        width: 168px;
+        height: 88px;
+        margin-bottom:120px;
+}
+
+.customer-icon-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
 }
 
 
 /* Footer */
+.social-p{
+    margin-bottom: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    
+}
+
 .footer {
     background-color: var(--gray);
     padding: 100px 0 100px;
     margin:0;
 }
-
+.ft-list{
+    display: flex;
+    gap: 120px;
+    margin:0;
+    padding: 0;
+    
+}
 .footer-logo {
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -384,7 +422,7 @@ nav .logo-style{
     text-transform: uppercase;
     color: var(--iris);
     display: inline-block;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .ft-studio {
@@ -396,7 +434,23 @@ nav .logo-style{
     color: #f4f4fd;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-top: 17.5px;
+    /* margin-top: 17.5px; */
+}
+.ft-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.socmed-title {
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        color: var(--white);
 }
 /* --------------- END OF FOOTER----------------*/
 /* Porfolio header buttons */
@@ -423,7 +477,7 @@ nav .logo-style{
 
 /* main */
 .section-five {
-    padding: 96px 0 120px 0;
+    /* padding: 96px 0 120px 0; */
 }
 
 .option {
