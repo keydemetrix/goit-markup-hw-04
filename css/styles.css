@@ -362,6 +362,10 @@ nav .logo-style{
     text-align: center;
 }
 
+.socmed-link:hover, :focus{
+    background-color: #404bbf;
+}
+
 /* --------------- 5th SEC ----------------*/
 .fith-sec{
     background-color: var(--CLOUD);
@@ -408,6 +412,10 @@ nav .logo-style{
     border-color: var(--nav-blue);
 }
 
+.socmed-link:hover,
+.socmed-link:focus {
+    background-color: var(#404bbf);
+}
 /* Footer */
 .social-p{
     margin: 0 0 16px 0;
@@ -427,8 +435,16 @@ nav .logo-style{
     gap: 120px;
     margin:0;
     padding: 0;
-    
 }
+
+.ft-icon-list{
+    display: flex;
+    gap:16px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
 .footer-logo {
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -452,6 +468,10 @@ nav .logo-style{
     width: 264px;
     /* margin-top: 17.5px; */
 }
+.ft-link:hover, :focus{
+    background-color: #31D0AA;
+}
+
 .ft-socials{
     display: flex;
     flex-direction: column;
@@ -469,12 +489,10 @@ nav .logo-style{
         color: var(--white);
 }
 
-.ft-socials a:hover, :focus{
+/* .ft-second-div a:hover, :focus{
     background-color: var(--mint);
-}
-.socmed-link:hover,.socmed-link:focus{
-            background-color: var(--ocean, #404bbf);
-}
+} */
+
 /* --------------- END OF FOOTER----------------*/
 /* Porfolio header buttons */
 .button-portfolio {
@@ -497,6 +515,20 @@ nav .logo-style{
     background-color: var(--nav-blue);
     border: 1px solid transparent;
 }
+
+.ft-link{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--iris);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .ft-link:hover, :focus{
+    background-color: var(--mint);
+} */
 
 /* main */
 .section-five {
