@@ -306,6 +306,12 @@ nav .logo-style{
 /* --------------- END OF 3RD SEC ----------------*/
 /* 4th Sec */
 
+.sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+}
 
 .team-icon-list{
         display: flex;
