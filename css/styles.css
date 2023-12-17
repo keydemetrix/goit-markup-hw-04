@@ -143,9 +143,11 @@ nav .logo-style{
 }
 /* --------------- END OF NAV ----------------*/
 /* First Section */
+.section{
+    max-width: 1440px;
+}
 .first-container{
     align-items: center;
-    max-width: 1440px;
     /* margin-left:300px; */
 }
 
